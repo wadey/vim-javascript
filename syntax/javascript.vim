@@ -151,7 +151,7 @@ endif "DOM/HTML/CSS
 
 "" Node.JS
 
-syntax keyword javaScriptNodeGlobalObjects  Buffer clearInterval clearTimeout console module process require setInterval setTimeout
+syntax keyword javaScriptNodeGlobalObjects  Buffer GLOBAL clearInterval clearTimeout console exports global module process require root setInterval setTimeout __dirname __filename
 
 "" end Node.JS
 
