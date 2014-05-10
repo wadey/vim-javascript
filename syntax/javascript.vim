@@ -185,7 +185,7 @@ endif "DOM/HTML/CSS
 
 "" Node.JS
 
-syntax keyword jsNodeGlobalObjects  Buffer GLOBAL clearInterval clearTimeout console exports global module process require root setInterval setTimeout __dirname __filename
+syntax keyword jsNodeGlobalObjects  Buffer GLOBAL clearInterval clearTimeout console global process root setInterval setTimeout __dirname __filename
 syntax keyword jsCallback           callback cb next
 
 "" end Node.JS
